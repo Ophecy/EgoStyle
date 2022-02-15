@@ -18,6 +18,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.lionzxy.trex_offline.TRexOfflineActivity;
+import com.lionzxy.trex_progress.TRexPlayActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -108,6 +110,15 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.scanner:
                         startActivity(new Intent(getApplicationContext(),
                                 ScanActivity.class));
+                        finish();
+                        overridePendingTransition(0, 0);
+                        return true;
+                    case R.id.jeux:
+
+                        //TRexPlayActivity.Companion.open(getApplicationContext());
+                        //startActivity(new Intent(getApplicationContext(),
+                                //TRexOfflineActivity::class.java));
+
                         finish();
                         overridePendingTransition(0, 0);
                         return true;

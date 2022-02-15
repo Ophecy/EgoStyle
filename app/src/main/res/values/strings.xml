@@ -2,6 +2,7 @@
     <string name="app_name">EgoStyleApp</string>
     <string name="home">Promotions actutelles</string>
     <string name="mes_coupons">Mes Coupons</string>
-
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="bouton_jeux">Joue</string>
 
 </resources>

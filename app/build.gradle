@@ -28,6 +28,8 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
+    //jeux
+
 
     //recycle view
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
@@ -40,6 +42,8 @@ dependencies {
     //bibliotheque zxing
     implementation 'com.google.zxing:core:3.2.1'
     implementation 'com.journeyapps:zxing-android-embedded:3.2.0'
+    implementation project(path: ':trex-offline')
+    implementation project(path: ':trex-progress')
 
     //JUnit4
     testImplementation 'junit:junit:4.12'
